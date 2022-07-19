@@ -13,7 +13,7 @@ Here is an example of the "networking" that I would like to have implemented (wa
 
 Example: Nodes $P_{1},P_{2},\ldots P_{n}$ have clients $C_{1},C_{2},\ldots C_{n}$ installed on each node respectively. $F_{1},F_{2},\ldots F_{n}$ are sets of files where $F_{1}$ is the set of files on node $P_{1}, F_{2}$ is the set of files on node $P_{2}$, and so forth.
 
-The goal of your program should be the unification of all sets of files, $F$, so that $P_{i},C_{i}\cup\left\{ F_{j}\right\}$ on each client.
+The goal of your program should be the unification of all sets of files, $F$, so that $P_{i},C_{i}\cup \left\{ F_{j}\right\}$ on each client.
 
 ## Some Notes
 * If you're working in pairs for this assignemnt, please let me know ASAP and I will create a single git repository for both people to use.
