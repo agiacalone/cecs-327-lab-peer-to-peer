@@ -11,9 +11,13 @@ You will be "exchanging" files from one node to the other through the use of *[s
 
 Here is an example of the "networking" that I would like to have implemented (warning: lots of *set theory math* ahead):
 
-Example: Nodes $P_{1},P_{2},\ldots P_{n}$ have clients $C_{1},C_{2},\ldots C_{n}$ installed on each node respectively. $F_{1},F_{2},\ldots F_{n}$ are sets of files where $F_{1}$ is the set of files on node $P_{1}, F_{2}$ is the set of files on node $P_{2}$, and so forth.
+> Nodes $P_{1},P_{2},\ldots P_{n}$ have clients $C_{1},C_{2},\ldots C_{n}$ installed on each node respectively. $F_{1},F_{2},\ldots F_{n}$ are sets of files where $F_{1}$ is the set of files on node $P_{1}, F_{2}$ is the set of files on node $P_{2}$, and so forth.
 
-The goal of your program should be the unification of all sets of files, $F$, so that $P_{i},C_{i}\cup \{ F_{j}\}$ on each client.
+> The goal of your program should be the unification of all sets of files, $F$, so that $P_{i},C_{i}\cup \{ F_{j}\}$ on each client.
+
+Essentially, what I am asking you to do is to create your own mini version of [Dropbox](https://dropbox.com); rather, you will be making a program which will run many instances in Docker and each "instance" will act as a node to synchronize all of the files which one instance "points" to (which may be on a local hard-drive, a network, or *anywhere* really) with the contents of whatever the other node "points" to.
+
+Since your computer is emulating the "universe" for your running nodes, you can (and should) specify seperate "sync" locations for each node. This can be done by using a [Docker Compose config file](https://docs.docker.com/compose) for your assignment. Docker Compose allows for one file to configure many different Docker nodes all at once.
 
 ## Some Notes
 * If you're working in pairs for this assignemnt, please let me know ASAP and I will create a single git repository for both people to use.
