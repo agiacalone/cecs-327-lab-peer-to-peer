@@ -32,7 +32,7 @@ implementation in order to complete this assignment, although, if you are clever
   * How will your client determine the order of syncing with regards to the files of other clients? (Docker might help here).
 
 # Deliverables
-Demonstrate your working code on a unique set of files for each client (minimum of two) for the instructor.
+Demonstrate your working code on a unique set of files for each Docker node (minimum of *four* active nodes) for the instructor.
 
 Your submission must follow the following rules, else *I will not grade it and you will receive a zero for the submission*:
 
