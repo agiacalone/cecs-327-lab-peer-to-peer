@@ -31,7 +31,7 @@ Since your computer is emulating the "universe" for your running nodes, you can 
 
 * Want a bit more background about Docker, or maybe want to check out other cool things you can do with Docker? [There's an Awesome repository for that](https://github.com/veggiemonk/awesome-docker).
 
-* Is Docker not installing/working correctly? Is it really slow or is your computer now acting strangely after you installed it? Docker is a virtual machine (containerd) and using it along with other VM software will cause a race condition. Make sure you have the (https://github.com/docker/for-win/issues/11764).
+* Is Docker not installing/working correctly? Is it really slow or is your computer now acting strangely after you installed it? Docker is a virtual machine (containerd) and even just having it installed on your computer along with other VM software, like Virtualbox and VMWare, may cause a race condition. Some setups will allow this to work by sharing the hypervisor among all services (Hyper-V can do this, for instance), however additional setup will likely be required.
 
 * You might need a [distributed hash table](https://stackoverflow.com/questions/144360/simple-basic-explanation-of-a-distributed-hash-table-dht) (DHT) implementation in order to complete this assignment, although, if you are clever, there is a way to do this assignment without one. :)
 
