@@ -25,7 +25,7 @@ Since your computer is emulating the "universe" for your running nodes, you can 
 ### Some Notes
 
 * If you're feeling a bit lost right now, it's okay. Here is what I recommend to do to get yourself started:
-  * Install Docker and Docker Compose for your operating system.
+  * Install [Docker](https://docs.docker.com/desktop) and [Docker Compose](https://docs.docker.com/compose) for your operating system.
   * Find a few pre-built Docker repositories and play with them. I particulary enjoy tinkering with the [repos made by linuxserver.io](https://www.linuxserver.io). Want to try out something fun? Check out [SteamOS on Docker](https://github.com/linuxserver/docker-steamos).
   * Once you feel like you have the basics of Docker usage, try making a Docker container with a defined port/socket and a simple program to handle that socket [using something like this](https://realpython.com/python-sockets).
 
