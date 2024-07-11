@@ -49,4 +49,4 @@ Your submission must follow the following rules:
 * Do *not* use compression on your files. This is extremely poor practice for code repositories, unless you have a very good reason for doing so.
 * Ensure that all significant code is *commented* with your own explanations. Code or projects without comments *will not receive credit*.
 * Your project, through git, should have enough commits to justify a semester-long project. Git repositories with very few commits on the repo will be heavily scrutinized and may receive reduced points.
-* Please make your git commit comments *helpful* and *concise*. Commit comments like 'updated file' or 'uploaded doc' are not helpful. Commit comments like 'fixed network bug in `project.py`' and 'added code to support file comparison' are much better.
+* Please make your git commit comments *helpful* and *concise*. Commit comments like `updated file` or `uploaded doc` are not helpful. Commit comments like `fixed network bug in project.py` and `added code to support file comparison` are much better.
