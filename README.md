@@ -6,8 +6,6 @@ The goal of this assignment is to become familiar with peer to peer (P2P) networ
 
 Design a program which allows multiple computers to synchronize files across a local area network (LAN). In order to complete the assignment, I am requiring the use of [Docker](https://www.docker.com) to implement your distributed network which will simulate the networking environment and manage the seperate nodes in this network. [Docker Desktop](https://docs.docker.com/desktop) is my recommendation to use on laptop or desktop computers, whereas [Docker Engine](https://docs.docker.com/engine) provides the core functionality for servers, virtual machines, and embedded devices. If you are an advanced Linux user (or are running Docker in a VM), you may want to consider Engine over Desktop as it will provide the same functionality but in a lighter-weight package.
 
-Note: if you are using Linux to run Docker (whether on hardware or in a virtual machine), note that your distribution likely has Docker included with its repositories and should be installed by [running the appropriate package install command](https://docs.docker.com/desktop/install/linux-install) (eg. `sudo apt install docker`).
-
 Each Docker contianer will be a seperate instance of your running code. All nodes *must* be identical in code with the exception of the configuration locations, directory attachments, etc. Essentially, only their Docker config files may differ.
 
 You will be "exchanging" files from one node to the other through the use of *[sockets](https://linux.die.net/man/7/socket)*, which are [Linux and Unix's way of implementing interprocess communication](https://www.linuxhowtos.org/C_C++/socket.htm).
